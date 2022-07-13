@@ -178,8 +178,8 @@ body {
   left:50%;
   /* margin-top:25%;   */
   margin-left:-229px;
-  border-top: 10px dotted rgba(28,110,164,0.56);
-  border-bottom: 10px dotted rgba(28,110,164,0.56);
+  border-top: 5px outset #FFD700;
+  border-bottom: 5px outset #FFD700;
   /* cursor:pointer; */
 }
 .head h1{
