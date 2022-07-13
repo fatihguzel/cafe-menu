@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({
 const path = require("path")
 app.use('/css',express.static(path.join(__dirname, 'public/styles.css')));
 app.use('/css',express.static(path.join(__dirname, '/app.js')));
+app.use('/css',express.static(path.join(__dirname, '/images/indir.jpg')));
 
 
 app.get("/",async(req,res)=>{
