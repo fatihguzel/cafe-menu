@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* NAVBAR START */
@@ -93,30 +93,15 @@ body {
 /* ANA YEMEK */
 .anayemek{
   position: relative;
-  height: 1500px;
+  height: auto;
   width: 100%;
   background-color: black;
 }
 
-.textheader{
-  text-align: center;
-  padding: 8rem;
-  margin: 1rem;
-  color:#FFD700;
-  font-size: 2.25rem;
-  font-style: italic;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .head{
-  position:absolute;
-  width:auto;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
-  /* top:10%; */
-  left:50%;
-  margin-left:-229px;
   border-width: 1px;
-
 }
 .headborder{
   border-top: 10px outset #FFD700;
@@ -126,7 +111,7 @@ body {
   text-align: center;
   margin: 2rem;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 4.2px;
   word-spacing: 6px;
   font-weight: normal;
@@ -149,7 +134,7 @@ body {
   text-align: center;
   padding: 1rem;
   margin: 2rem;
-  width:400px;
-  height: 400px;
+  width:300px;
+  height: 300px;
   border-radius: 50%;
 }
