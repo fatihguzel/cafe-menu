@@ -4,20 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* NAVBAR START */
 .container {
   max-width: 1050px;
   width: 90%;
   margin: auto;
 }
 
-/* NAVBAR START */
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -150,7 +149,7 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
-.nav-container input[type="checkbox"]:checked ~ .textheader{
+.head input[type="checkbox"]:checked ~ .textheader{
   display: block;
 }
 
@@ -159,7 +158,7 @@ body {
 
 /* ANA YEMEK */
 .anayemek{
-  height: 1500px;
+  height: 2000px;
   width: 100%;
   background-color: black;
 }
@@ -174,7 +173,7 @@ body {
 }
 .head{
   position:absolute;
-  top:40%;
+  top:50%;
   left:50%;
   /* margin-top:25%;   */
   margin-left:-229px;
