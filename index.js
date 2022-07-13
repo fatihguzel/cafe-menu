@@ -14,6 +14,9 @@ function open(){
     app.use('/css',express.static(path.join(__dirname, 'public/styles.css')));
     app.use('/css',express.static(path.join(__dirname, '/app.js')));
     app.use('/css',express.static(path.join(__dirname, 'public/images/indir.jpg')));
+    app.use('/css',express.static(path.join(__dirname, 'public/images/indir2.jpg')));
+    app.use('/css',express.static(path.join(__dirname, 'public/images/indir3.jpg')));
+
     
     
     app.get("/",async(req,res)=>{
