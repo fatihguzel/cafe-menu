@@ -18,7 +18,7 @@ app.get("/",async(req,res)=>{
     res.set({
         "Allow-access-Allow-Origin": '*'
     })
-    return res.sendFile(path.resolve(__dirname+ '/index.html'))
+    return res.sendFile(path.resolve(__dirname+ '/public/index.html'))
 }).listen(5040)
 
 
